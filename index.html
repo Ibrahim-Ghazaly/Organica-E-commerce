@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+      <!-- Render All element normally -->
+      <link  rel="stylesheet"    href="assets/css/normalize.css"> 
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+       <!-- Font awesome -->
+      <link  rel="stylesheet"    href="assets/css/all.min.css"> 
+        <!-- main template css file -->
+      <link  rel="stylesheet"    href="assets/css/main.css">
+    <title>Organica </title>
+    
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="top-bar">
+       <div class="container">
+         <p class="top-bar-text">Free shipping for all order of $105 </p>
+       </div>
+    </div>
+    <nav class="navbar background">
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-sliders"></i>
+        </button>
+        <div class="logo">
+          <a href="./index.html" >Organ<span class="span">ica</span></a>
+        </div>
+
+        <ul class="nav-items">
+          <button class="nav-close-btn" aria-label="Close Menu" >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <li class="item"><a href="index.html">Home</a></li>
+          <li class="item"><a href="#about">About</a></li>
+          <li class="item"><a href="#shop">shop</a></li>
+          <li class="item"><a href="#blog">blog</a></li>
+          <li class="item"><a href="#products">products</a></li>
+          <li class="item"><a href="#contact">contact</a></li>
+        </ul>
+
+        <div class="btn-action">
+          <button class="btn search"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="btn wishlist"><i class="fa-solid fa-heart"></i></button>
+          <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+
+    
+    </nav>
+
+  </header>
+
+  <!-- start hero section  -->
+   <section class="hero"> 
+    <div class="container">
+      <div class="content">
+        <h3>25% off all products.</h3>
+        <h2>Qualityful <span>organic</span> fruit & <span>vegetables.</span></h2>
+        <p>It has survived not only five centuries also there leaped.</p>
+        <a href="./shop.html">shop now     <i class="fa-solid fa-angle-right"></i>  </a>
+      </div>
+      <div class="image">
+        <img src="./assets/images/hero-banner.png" alt="">
+      </div>
+    </div>
+  </section>
+   
+<!-- start service section  -->
+
+<section class="service">
+  <div class="container">
+    <div class="service-item">
+      <div class="service-img">
+        <img src="./assets/images/service-icon-1.png" alt="">
+      </div>
+      <h2 class="service-title">free shipping</h2>
+    </div>
+    <div class="service-item">
+      <div class="service-img">
+        <img src="./assets/images/service-icon-2.png" alt="">
+      </div>
+      <h2 class="service-title">safe payment</h2>
+    </div>
+    <div class="service-item">
+      <div class="service-img">
+        <img src="./assets/images/service-icon-3.png" alt="">
+      </div>
+      <h2 class="service-title">24/7support</h2>
+    </div>
+  </div>
+</section> 
+
+
+
+
+
+<section class="offers">
+  <div class="container">
+    <div class="row">
+      
+      <div class="offer-item">
+        
+          <div class="offer-info">
+            <h5>up to 25% off</h5>
+            <p>Fresh vegetables package.</p>
+            <a href="./shop.html"  class="offer-link">shop now</a>
+        </div>
+   
+        <div class="offer-img">
+          <img src="./assets/images/offer-1.png" alt="">
+        </div>
+      </div>
+      
+    
+    
+        <div class="offer-item">
+       
+          <div class="offer-info">
+            <h5>up to 25% off</h5>
+            <p>Healthy&fresh beef.</p>
+            <a href="./shop.html" class="offer-link">shop now </a>
+        </div>
+    
+        <div class="offer-img">
+          <img src="./assets/images/offer-2.png" alt="">
+        </div>
+      </div>
+  
+      
+  </div>
+</section>
+
+<!-- start products section  -->
+<section class="products">
+  <div class="container">
+    <p class="subtitle">-- Organic Products --</p>
+    <h2 class="title">All Organic Products</h2>
+     <ul class="filter-list">
+        <li>
+           <button class="filter-btn active" data-filter="Vegetables">
+              <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+              <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+            <p class="filter-text">Fresh vegetables</p>
+           </button>
+        </li>
+        <li>
+          <button class="filter-btn " data-filter="meat">
+             <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
+             <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
+           <p class="filter-text">Fish & Meat</p>
+          </button>
+       </li>
+       <li>
+        <button class="filter-btn" data-filter="fruit">
+           <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+           <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+         <p class="filter-text">Healthy Fruit</p>
+        </button>
+     </li>
+     <li>
+      <button class="filter-btn" data-filter="dairy">
+         <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+         <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+       <p class="filter-text">Dairy Products</p>
+      </button>
+   </li>
+     </ul>
+     <div class="cards">
+        <div class="product-card" data-filter="fruit">
+          <figure>
+            <img src="./assets/images/product-1.png" class="prduct-img" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+            <a href="./product-details.html">fresh orangy</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        <div class="product-card"  data-filter="Vegetables">
+          <figure>
+            <img src="./assets/images/product-2.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">key lime</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+             <div class="product-card"  data-filter="dairy">
+        <figure>
+          <img src="./assets/images/product-3.png" alt="">
+          <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+        </figure>
+        <ul class="rating-wrapper">
+          <li class="star"><i class="fa-solid fa-star"></i></li>
+          <li class="star"><i class="fa-solid fa-star"></i></li>
+          <li class="star"><i class="fa-solid fa-star"></i></li>
+          <li class="star"><i class="fa-solid fa-star"></i></li>
+          <li class="star"><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <h3 class="card-title">
+            <a href="./product-details.html">fresh watermelon</a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="del">75$</span>
+            <span class="actual-price">85$</span>
+          </div>
+          <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="product-card" data-filter="meat">
+          <figure>
+            <img src="./assets/images/product-4.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">visula matches</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        <div class="product-card" data-filter="fruit">
+          <figure>
+            <img src="./assets/images/product-5.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">Pomagranate Fruit</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        <div class="product-card" data-filter="meat" >
+          <figure>
+            <img src="./assets/images/product-6.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">red onion</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+        <div class="product-card" data-filter="dairy">
+          <figure>
+            <img src="./assets/images/product-7.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">Lens Results Broccoli</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        <div class="product-card"  data-filter="Vegetables">
+          <figure>
+            <img src="./assets/images/product-8.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+              <a href="./product-details.html">Lens Results Spinach</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+     
+  
+     </div>
+  </div>
+</section>
+
+
+<!-- summer offer  -->
+
+<section class="cta">
+  <div class="container">
+
+    <p class="subtitle">Summer Offer</p>
+
+    <h2 class="title">Up To 50% Off All Product.</h2>
+
+    <p class="cta-text">
+      It has survived not only five centuries also leaped.
+    </p>
+
+    <a href="./shop.html" class="cta-btn">shop now     <i class="fa-solid fa-angle-right"></i>  </a>
+  
+
+  </div>
+</section>
+
+<!-- trendy products  -->
+<section class="top-products">
+  <div class="container">
+    <p class="subtitle">-- Organic Food --</p>
+    <h2 class="title">Trendy Products</h2>
+
+     <div class="cards">
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-1.png" class="prduct-img" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">fresh orangy</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-2.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">key Lime</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+             <div class="product-card">
+        <figure>
+          <img src="./assets/images/top-product-3.png" alt="">
+          <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+        </figure>
+        <div class="info">
+          <ul class="rating-wrapper">
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            <li class="star"><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <h3 class="card-title">
+            <a href="./product-details.html">fresh watermelon</a>
+            </h3>
+            <div class="price-wrapper">
+              <span class="del">75$</span>
+              <span class="actual-price">85$</span>
+            </div>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+        </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-4.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">stobery</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-5.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">pomagranate fruit</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-6.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">Lens Results Broccoli</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-7.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">Lens Results spinach</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+        <div class="product-card">
+          <figure>
+            <img src="./assets/images/top-product-8.png" alt="">
+            <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+
+            <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+
+          </figure>
+          <div class="info">
+            <ul class="rating-wrapper">
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              <li class="star"><i class="fa-solid fa-star"></i></li>
+              </ul>
+              <h3 class="card-title">
+              <a href="./product-details.html">Lorigun Artificial</a>
+              </h3>
+              <div class="price-wrapper">
+                <span class="del">75$</span>
+                <span class="actual-price">85$</span>
+              </div>
+              <button class="btn btn-primary">Add to Cart</button>
+          </div>
+          </div>
+          <div class="product-card">
+            <figure>
+              <img src="./assets/images/top-product-9.png" alt="">
+              <button class="product-btn wishlist" value="add to wishlist"><i class="fa-regular fa-heart"></i></i></button>
+  
+              <button class="product-btn quick-view" value="quick view"><i class="fa-solid fa-eye"></i></i></button>
+  
+            </figure>
+            <div class="info">
+              <ul class="rating-wrapper">
+                <li class="star"><i class="fa-solid fa-star"></i></li>
+                <li class="star"><i class="fa-solid fa-star"></i></li>
+                <li class="star"><i class="fa-solid fa-star"></i></li>
+                <li class="star"><i class="fa-solid fa-star"></i></li>
+                <li class="star"><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <h3 class="card-title">
+                <a href="./product-details.html">leaf lettuce</a>
+                </h3>
+                <div class="price-wrapper">
+                  <span class="del">75$</span>
+                  <span class="actual-price">85$</span>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+     </div>
+</section>
+<!-- start partner section  -->
+<section class="partner">
+  <div class="container">
+    <p class="subtitle">-- Organic Food --</p>
+    <h2 class="title">Trusted Partners</h2>
+     <div class="partners">
+       <img src="./assets/images/partner-1.png" alt="" class="partner-img">
+       <img src="./assets/images/partner-2.png" alt="" class="partner-img">
+       <img src="./assets/images/partner-3.png" alt="" class="partner-img">
+       <img src="./assets/images/partner-4.png" alt="" class="partner-img">
+       <img src="./assets/images/partner-5.png" alt="" class="partner-img">
+       <img src="./assets/images/partner-6.png" alt="" class="partner-img">
+    </div>
+  </div>
+</section>
+
+<!-- strat feedback section  -->
+<section class="Testimonial">
+  <div class="container">
+    <p class="subtitle">-- Some Testimonial --</p>
+    <h2 class="title">Feedback From Happy Clients</h2>
+    <div class="testemonial-cards">
+      <div class="testi-card">
+        <div class="card-header">
+        <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+        <img src="./assets/images/testimonial-1.jpg" width="90" height="90" loading="lazy"
+          alt="Willow Peralta" class="card-avatar">
+
+        <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+      </div>
+      <ul class="rating-wrapper">
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        </ul>
+        <p class="card-text">
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.
+        </p>
+        <h3 class="client-name">Willow Peralta</h3>
+        <p class="client-job">Web Developer</p>
+      </div>
+      <div class="testi-card">
+        <div class="card-header">
+        <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+        <img src="./assets/images/testimonial-2.jpg" width="90" height="90" loading="lazy"
+          alt="Willow Peralta" class="card-avatar">
+
+        <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+      </div>
+      <ul class="rating-wrapper">
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        </ul>
+        <p class="card-text">
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.
+        </p>
+        <p class="client-name">Pamelia Hamrick</p>
+        <p class="client-job">Web Developer</p>
+      </div>
+      <div class="testi-card">
+        <div class="card-header">
+        <img src="./assets/images/quote-left.png" width="25" height="25" aria-hidden="true" alt="">
+
+        <img src="./assets/images/testimonial-3.jpg" width="90" height="90" loading="lazy"
+          alt="Willow Peralta" class="card-avatar">
+
+        <img src="./assets/images/quote-right.png" width="25" height="25" aria-hidden="true" alt="">
+      </div>
+      <ul class="rating-wrapper">
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        <li class="star"><i class="fa-solid fa-star"></i></li>
+        </ul>
+        <p class="card-text">
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.
+        </p>
+        <h3 class="client-name">Novella Gerber</h3>
+        <p class="client-job">Web Developer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- news and blogs  -->
+
+<section class="news-blogs">
+  <div class="container">
+    <p class="subtitle">-- News And Blog --</p>
+    <h2 class="title">Bright Side Vegetarianism</h2>
+    <div class="blog-list">
+      <div class="blog-card">
+         <figure class="blog-banner">
+           <img src="./assets/images/blog-1.jpg" alt="">
+         </figure>
+         <div class="blog-content">
+           <div class="card-wrapper">
+             <div class="card-item">
+              <i class="fa-solid fa-calendar"></i>
+              <time datetime="13 April, 2022">13 April, 2022</time>
+             </div>
+             <div class="card-item">
+              <i class="fa-solid fa-heart"></i>
+               <span>58 Million</span>
+             </div>
+           </div>
+          <a href="./404.html" class="card-title">We automatically search for andapply coupons when.
+  
+            </a>
+            <a href="./404.html" class="blog-btn">Read More    <i class="fa-solid fa-angle-right"></i>  </a>
+          
+         </div>
+      </div>
+      <div class="blog-card">
+        <figure class="blog-banner">
+          <img src="./assets/images/blog-2.jpg" alt="">
+        </figure>
+        <div class="blog-content">
+          <div class="card-wrapper">
+            <div class="card-item">
+              <i class="fa-solid fa-calendar"></i>
+             <time datetime="13 April, 2022">13 April, 2022</time>
+            </div>
+            <div class="card-item">
+             <i class="fa-solid fa-heart"></i>
+              <span>58 Million</span>
+            </div>
+          </div>
+          <a href="./404.html" class="card-title">How to get more traffic in your website of ecommerce.</a>
+          <a href="./404.html" class="blog-btn">Read More    <i class="fa-solid fa-angle-right"></i>  </a>
+          
+        </div>
+      </div>
+      <div class="blog-card">
+        <figure class="blog-banner">
+          <img src="./assets/images/blog-3.jpg" alt="">
+        </figure>
+        <div class="blog-content">
+          <div class="card-wrapper">
+            <div class="card-item">
+              <i class="fa-solid fa-calendar"></i>
+             <time datetime="13 April, 2022">13 April, 2022</time>
+            </div>
+            <div class="card-item">
+             <i class="fa-solid fa-heart"></i>
+              <span>58 Million</span>
+            </div>
+          </div>
+         
+          <a href="./404.html" class="card-title">25 Rules and regulation to be successful in your business.</a>
+          <a href="./404.html" class="blog-btn">Read More    <i class="fa-solid fa-angle-right"></i>  </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- start subscribe section  -->
+ <section class="subscribe">
+  <div class="container">
+     <div class="newsletter">
+      <p class="subtitle">-- News And Blog --</p>
+      <h2 class="title">Sign Up To Newsletter & Get <span>20% Off.</span></h2>
+        <div class="form">
+          <input type="email" class="SignUp-input" placeholder="Enter your email">
+          <button class="submit">Sign Up  <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+     </div>
+  </div>
+</section> 
+
+<!-- start footer  -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+       <div class="footer-brand">
+        <div class="logo">
+          <a href="./index.html" >Organ<span class="span">ica</span></a>
+        </div>
+        <p class="footer-text">
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more
+          recently with
+          desktop publishing software like including.
+        </p>
+        <ul class="social-media">
+          <li><a href="#facebook" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#twitter"  class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#skype"    class="social-link"><i class="fa-brands fa-skype"></i></a></li>
+          <li><a href="#linkedin" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+       </div>
+       <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title">Company</p>
+        </li>
+
+        <li>
+          <a href="./about.html" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="./shop.html" class="footer-link">Shop</a>
+        </li>
+
+        <li>
+          <a href="./blog.html" class="footer-link">Blog</a>
+        </li>
+
+        <li>
+          <a href="./shop.html" class="footer-link">Product</a>
+        </li>
+
+        <li>
+          <a href="./contact.html" class="footer-link">Contact Us</a>
+        </li>
+
+      </ul>
+      <ul class="footer-list" id="contact">
+
+        <li>
+          <p class="footer-list-title">Contact</p>
+        </li>
+
+        <li class="footer-item">
+          <div class="contact-icon">
+            <i class="fa-regular fa-location-dot"></i>
+          </div>
+
+          <address class="contact-link">
+            7 Green Lake Street Crawfordsville, IN 47933
+          </address>
+        </li>
+
+        <li class="footer-item">
+          <div class="contact-icon">
+            <i class="fa-regular fa-phone"></i>
+          </div>
+
+          <a href="tel:+1800123456789" class="contact-link">+1 800 123 456 789</a>
+        </li>
+
+        <li class="footer-item">
+          <div class="contact-icon">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+
+          <a href="mailto:organica@help.com" class="contact-link">organica@help.com</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="footer-list-title">Newsletter</p>
+
+        <p class="newsletter-text">
+          You will be notified when somthing new will be appear.
+        </p>
+
+        <form action="" class="footer-form">
+          <input type="email" name="email" placeholder="Email Address *" required class="footer-input">
+
+          <button type="submit" class="footer-form-btn" aria-label="Submit">
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Rights Reserved.
+        </p>
+  
+        <ul class="footer-bottom-list">
+  
+          <li>
+            <a href="#" class="footer-bottom-link">Term and Service</a>
+          </li>
+  
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+</footer>
+
+<!-- back to up arrow -->
+<a href="#top" class="back-to-up show">
+  <i class="fas fa-angle-double-up fa-2x"></i>
+</a>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
