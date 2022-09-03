@@ -69,9 +69,9 @@ filterbtns.forEach((btn)=>{
               if(card.hasAttribute("data-filter")){
                   
                   if( btn.getAttribute("data-filter") === card.getAttribute("data-filter")){
-                      card.style.display="block";
+                      card.style.opacity=1;
                     }else{
-                      card.style.display="none";
+                      card.style.opacity=0;
                     }
 
               }
