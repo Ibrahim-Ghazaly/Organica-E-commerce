@@ -1820,8 +1820,8 @@ font-size: var(--fs-8);
   position: fixed;
   right:30px;
   bottom: 40px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: var(--emerald);
   border-radius: 50%;
   color:var(--main-color);
@@ -1838,6 +1838,7 @@ font-size: var(--fs-8);
 
 .back-to-up i{
   color:var(--white);
+  font-size: var(--fs-5);
 }
 .back-to-up.show{
   opacity: 1;
