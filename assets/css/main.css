@@ -784,6 +784,19 @@ body {
   padding:30px 20px;
   text-align: center;
   transition: var(--transition-2);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
  .products .cards .product-card:hover{
